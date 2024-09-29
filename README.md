@@ -21,3 +21,12 @@ This is a simple **real-time face detection and recognition** application built 
    git clone https://github.com/IvanYanishevskyi/FaceDetectionAPP.git
    cd FaceDetectionAPP
    ```
+2. ```bash
+   python main.py
+   ```
+### How It Works
+
+The app captures video from the default camera.
+It detects faces in real-time using OpenCV's Haar Cascade classifier.
+Detected faces are compared with known encodings stored as flattened grayscale images from the images folder.
+Recognized faces are labeled with their corresponding names on the video feed.
